@@ -10,26 +10,42 @@
 </head>
 
 <body class="bg-dark text-white-50">
-
-
     <div class="container">
-        <h1 class="text-center">Sequência de Fibonacci</h1>
-    </div>
+        <h1 class="mt-3 mb-3 text-center fs-1">Sequência de Fibonacci</h1>
+        <div class="row mb-3">
+            <div class="col-md-1"></div>
+            <div class="col-md-10 fs-3" >
+                <p>A sequência de fibonacci é uma sucessão de números que aparece codificada em muitos fenômenos da natureza. Descrita no final do século 12 pelo matemático italiano Leonardo Fibonacci, ela é infinita e começa com 0 e 1. Os números seguintes são sempre a soma dos dois números anteriores.
+                </p>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
 
-    <div class="container">
-        <p>A sequência de fibonacci é uma sucessão de números que aparece codificada em muitos fenômenos da natureza. Descrita no final do século 12 pelo matemático italiano Leonardo Fibonacci, ela é infinita e começa com 0 e 1. Os números seguintes são sempre a soma dos dois números anteriores.
-        </p>
-
-        <div class="text-center">
-            <label for="num">Number of sequenceFibonacci:</label>
-            <input id="num" value="0" type="number" name="num" id="num">
-            <button class="btn btn-danger" id="btn" type="submit">Submit</button>
+        <div class="text-center row mb-3">
+            <div class="col-md-1"></div>
+            <label class="col-md-3 fs-4" for="num">Numero da Sequência:</label>
+            <div class="col">
+                <input id="num" type="number" class="form-control" value="0" >
+            </div>
+            <button class="col-md-1 btn btn-danger" type="button" id="btn">Calcular</button>
+            <div class="col-md-1"></div>
         </div>
         
-        <div class="text-center">
-            <p></p>
-            <span class="btn btn-primary" id="resposta">0</span>
+        <div class="row">
+            <div class="col-md-4"></div>    
+            <span class=" col-md-4 btn btn-primary mb-5" id="resposta">0</span>
+            <div class="col-md-4"></div>
         </div>
+
+        <div class="row mb-3">
+            <div class="col-md-1"></div>
+            <div class="col-md-10 text-center">
+                <p class="mb-0">Fib(n) Corresponde ao numero da sequencia de Fibonacci na posição n</p>
+                <p>Calls = n corresponte ao numero de chamadas da função recursiva</p>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        
     </div>
 
 
